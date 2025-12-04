@@ -1,0 +1,16 @@
+# Ignore VS Code settings folder
+.vscode/
+
+# Ignore executables
+*.exe
+
+# Ignore build/output binaries
+*.out
+*.o
+*.obj
+*.dll
+*.pdb
+
+# Ignore macOS / Windows extras (optional)
+.DS_Store
+Thumbs.db
