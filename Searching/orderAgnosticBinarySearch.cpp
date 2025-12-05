@@ -26,8 +26,8 @@ int orderAgnosticBinarySearch(vector<int> arr, int target) {
 
 int main() {
 
-    vector<int> arr1 = {1, 2, 3, 4, 5};
-    vector<int> arr2 = {5, 4, 3, 2, 1};
+    vector<int> arr1 = {1, 2, 3, 4, 5}; // Ascending
+    vector<int> arr2 = {5, 4, 3, 2, 1}; // Descending
 
     cout << orderAgnosticBinarySearch(arr2, 5);
 
