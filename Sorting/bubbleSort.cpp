@@ -13,9 +13,15 @@ void bubbleSort(vector<int> &arr) {
     }
 }
 
+void display(vector<int> arr) {
+    for(int i = 0; i < arr.size(); ++i) cout << arr[i] << " ";
+}
+
 int main() {
+
     vector<int> arr = {5, 3, 1, 2, 5, 8, 4, 10, 9, 8, -1};
     bubbleSort(arr);
-    for(int i = 0; i < arr.size(); ++i) cout << arr[i] << " ";
+    display(arr);
+    
     return 0;
 }
