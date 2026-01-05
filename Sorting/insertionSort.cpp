@@ -2,7 +2,7 @@
 using namespace std;
 
 void insertionSort(vector<int> &arr) {
-    for(int i = 1; i < arr.size() - 1; ++i) {
+    for(int i = 0; i < arr.size() - 1; ++i) {
         for(int j = i + 1; j > 0; --j) {
             if(arr[j] < arr[j-1]) {
                 int temp = arr[j];
