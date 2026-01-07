@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//O(n2)
+//O(n^2)
 void selectionSort(vector<int> &arr) {
     int n = arr.size();
     for(int i = 0; i < n; ++i) {
