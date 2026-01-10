@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+//O(logn)
 int binarySearch(vector<int> arr, int target) {
 
     int start = 0;
