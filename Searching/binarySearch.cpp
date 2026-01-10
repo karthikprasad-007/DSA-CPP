@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//O(logn)
+// O(logn) time complexity
 int binarySearch(vector<int> arr, int target) {
 
     int start = 0;
