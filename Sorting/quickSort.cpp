@@ -15,6 +15,7 @@ int partition(int arr[], int low, int high) {
     return i + 1;
 }
 
+// O(n log n) Average Time Complexity
 void quickSort(int arr[], int low, int high) {
     if (low < high) {
         int pi = partition(arr, low, high);
