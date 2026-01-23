@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// O(n log n) Time Complexity
+// Merges two subarrays of arr[]
 void merge(int arr[], int left, int mid, int right) {
     int n1 = mid - left + 1;
     int n2 = right - mid;
@@ -34,6 +34,7 @@ void merge(int arr[], int left, int mid, int right) {
     delete[] R;
 }
 
+// O(n log n) Time Complexity
 void mergeSort(int arr[], int left, int right) {
     if (left < right) {
         int mid = left + (right - left) / 2;
