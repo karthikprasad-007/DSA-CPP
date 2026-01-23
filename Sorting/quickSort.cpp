@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// Partition function to place pivot element at correct position
 int partition(int arr[], int low, int high) {
     int pivot = arr[high];
     int i = low - 1;
